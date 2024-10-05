@@ -8,12 +8,12 @@ export default function Home() {
       <div className="w-full h-80 bg-orange-500">{/* input profile img */}</div>
 
       <h3 className="w-full p-4 border-b">
-        Hello. Im gyun. nice to meet you everyone. 😁
+        Hello. Im kyun. nice to meet you everyone. 😁
       </h3>
 
       <div className="pb-4 pt-8 flex justify-between items-center">
         <dl>
-          <dt className="pb-2 text-2xl text-slate-100">Jaegyun-Im</dt>
+          <dt className="pb-2 text-2xl text-slate-100">Jaekyun-Im</dt>
           <dd className="text-sm text-slate-400">web frontend developer</dd>
         </dl>
         <div className="w-40 h-40 rounded-full bg-white overflow-hidden">

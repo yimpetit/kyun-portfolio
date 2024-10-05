@@ -6,7 +6,7 @@ const Header = () => {
     <header className="flex justify-between py-6">
       <div>
         <Link href="/" className="text-lg font-bold">
-          Gyun.
+          kyun.
         </Link>
       </div>
       <ul className="flex gap-4">

@@ -8,8 +8,8 @@ import { AnimatePresence, motion } from "framer-motion";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gyun. portfolio",
-  description: "Gyun.'s portfolio",
+  title: "kyun. portfolio",
+  description: "kyun.'s portfolio",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
           <Header />
           <main>{children}</main>
           <p className="py-6 text-center text-sm text-slate-400">
-            © {dayjs().year()} Gyun. All Rights Reserved.
+            © {dayjs().year()} kyun. All Rights Reserved.
           </p>
         </div>
       </body>
