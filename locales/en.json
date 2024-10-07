@@ -1,0 +1,27 @@
+{
+  "Menu": {
+    "intro": "Intro",
+    "work": "Work",
+    "etc": "ETC"
+  },
+  "IntroPage": {
+    "introTitle": "Hello, I'm kyun. Nice to meet you everyone.",
+    "introName": "Jaekyun-Im",
+    "introJob": "web frontend developer",
+    "aboutMeTitle": "About Me",
+    "aboutMeDescription": "I am a web front-end developer living in Cheongju, South Korea. I have a deep passion for web technologies and user interface design, and I am always striving to create beautiful and user-friendly websites. I provide web solutions using basic HTML, JavaScript, CSS, as well as React or Next.js. I enjoy learning and applying new technologies, with the goal of enhancing user experience through my projects.",
+    "myLifeTitle": "My Life",
+    "myLife1991": "Born in Seoul, South Korea",
+    "myLife2015": "'Reconers' Web Publisher",
+    "myLife2017": "'ST Unitas' Web Developer",
+    "myLife2020": "'Delicious' Web Frontend Developer",
+    "myLife2022": "'The Jackpot' Web Frontend Developer",
+    "iLikeTitle": "I Like",
+    "iLikeDescription": "Workout, Travel, Music, Guitar, Escape from Tarkov, Learning Something, Cooking",
+    "ohterInfoTitle": "Other Info",
+    "ohterInfoGit": "Github",
+    "ohterInfoInstagram": "Instagram",
+    "ohterInfoVelog": "Velog",
+    "ContactTitle": "Contact"
+  }
+}
