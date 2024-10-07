@@ -5,7 +5,7 @@ import { Link } from "@/i18n/routing";
 const Header = ({ locale }: { locale: string }) => {
   const t = useTranslations("Menu");
   return (
-    <header className="flex justify-between py-6">
+    <header className="flex justify-between py-6 px-4">
       <div>
         <Link href="/" className="text-lg font-bold">
           Kyun.

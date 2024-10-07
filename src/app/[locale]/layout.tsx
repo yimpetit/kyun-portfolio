@@ -27,7 +27,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <div className="w-full max-w-[600px] my-0 mx-auto">
             <Header locale={locale} />
-            <main>{children}</main>
+            <main className="px-4">{children}</main>
             <p className="py-6 text-center text-sm text-slate-400">
               © {dayjs().year()} kyun. All Rights Reserved.
             </p>

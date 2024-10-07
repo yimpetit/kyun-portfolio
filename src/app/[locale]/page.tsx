@@ -7,7 +7,7 @@ export default function Home() {
   const t = useTranslations("IntroPage");
   return (
     <>
-      <div className="w-full h-80 bg-orange-500">
+      <div className="w-full">
         <Image
           src="/main_profile.jpg"
           alt="profile"
