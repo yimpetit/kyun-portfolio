@@ -116,11 +116,11 @@ export default function Home() {
         <ul className="text-sm">
           <li className="pt-1 flex items-center gap-2">
             <FaPhoneAlt />
-            <div className="text-slate-400">+82 10 5745 3234</div>
+            <div className="text-slate-400">+82 10 2943 5571</div>
           </li>
           <li className="pt-1 flex items-center gap-2">
             <FaMailBulk />
-            <div className="text-slate-400">jgjg2832@gmail.com</div>
+            <div className="text-slate-400">cllb5571@gmail.com</div>
           </li>
         </ul>
       </div>

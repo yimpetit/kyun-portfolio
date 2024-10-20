@@ -16,12 +16,12 @@ const Header = ({ locale }: { locale: string }) => {
           <li className="font-bold">
             <Link href="/">{t("intro")}</Link>
           </li>
-          <li className="text-slate-500">
+          {/* <li className="text-slate-500">
             <Link href="/works">{t("work")}</Link>
           </li>
           <li className="text-slate-500">
             <Link href="#">{t("etc")}</Link>
-          </li>
+          </li> */}
         </ul>
         <div className="w-px h-full bg-slate-500"></div>
         <ul className="flex gap-4 text-sm text-slate-500">
