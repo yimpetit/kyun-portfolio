@@ -2,18 +2,22 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaInstagram, FaPhoneAlt, FaMailBulk } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+// import ThreeScene from "@/components/Cube";
+import ThreeScene from "@/components/Text";
 
 export default function Home() {
   const t = useTranslations("IntroPage");
   return (
     <>
       <div className="w-full">
-        <Image
+        {/* <Image
           src="/main_profile.jpg"
           alt="profile"
           width="600"
           height="320"
-        ></Image>
+        ></Image> */}
+        {/* <ThreeScene /> */}
+        <ThreeScene />
       </div>
 
       <h3 className="w-full p-4 border-b">{t("introTitle")} 😁</h3>
