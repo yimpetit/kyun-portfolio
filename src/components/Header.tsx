@@ -43,6 +43,15 @@ const Header = ({ locale }: { locale: string }) => {
               Kr
             </Link>
           </li>
+          <li>
+            <Link
+              href="/"
+              locale="th"
+              className={locale === "th" ? "text-red-100 font-bold" : ""}
+            >
+              Th
+            </Link>
+          </li>
         </ul>
       </div>
     </header>
