@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaGithub, FaInstagram, FaPhoneAlt, FaMailBulk } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 // import ThreeScene from "@/components/Cube";
-import ThreeScene from "@/components/Text";
+import ThreeScene from "@/components/KyunCube";
 
 export default function Home() {
   const t = useTranslations("IntroPage");

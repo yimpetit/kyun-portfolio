@@ -1,10 +1,21 @@
 import React, { useRef } from "react";
 import { MeshReflectorMaterial, useGLTF } from "@react-three/drei";
+import { useFrame } from "@react-three/fiber";
 
 export function KyunGLB(props: any) {
   const { nodes, materials }: any = useGLTF<any>("/models/kyun_cube.glb");
+
+  const boxRef = useRef<any>();
+
+  useFrame(() => {
+    if (boxRef.current) {
+      // boxRef.current.rotation.x += 0.01; // X축 회전
+      boxRef.current.rotation.y -= 0.001; // Y축 회전
+    }
+  });
+
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} ref={boxRef}>
       <mesh
         castShadow
         receiveShadow
@@ -13,7 +24,7 @@ export function KyunGLB(props: any) {
         position={[-0.416, 0.083, 0.428]}
         rotation={[Math.PI / 2, 0, 0]}
       >
-        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.4} />
+        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.3} />
       </mesh>
       <mesh
         castShadow
@@ -23,7 +34,7 @@ export function KyunGLB(props: any) {
         position={[-0.425, 0.083, -0.423]}
         rotation={[Math.PI / 2, 0, Math.PI / 2]}
       >
-        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.4} />
+        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.3} />
       </mesh>
       <mesh
         castShadow
@@ -33,7 +44,7 @@ export function KyunGLB(props: any) {
         position={[-0.416, 0.083, -0.434]}
         rotation={[Math.PI / 2, 0, 0]}
       >
-        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.4} />
+        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.3} />
       </mesh>
       <mesh
         castShadow
@@ -43,7 +54,7 @@ export function KyunGLB(props: any) {
         position={[0.417, 0.083, -0.423]}
         rotation={[Math.PI / 2, 0, Math.PI / 2]}
       >
-        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.4} />
+        <meshPhongMaterial emissive="#86bdff" emissiveIntensity={0.3} />
       </mesh>
       <mesh
         castShadow
@@ -63,7 +74,7 @@ export function KyunGLB(props: any) {
           depthScale={0}
           minDepthThreshold={0}
           maxDepthThreshold={1.4}
-          color="#29253d"
+          color="#5c5967"
           metalness={1}
           mirror={0}
         />
@@ -86,7 +97,7 @@ export function KyunGLB(props: any) {
           depthScale={0}
           minDepthThreshold={0}
           maxDepthThreshold={1.4}
-          color="#29253d"
+          color="#5c5967"
           metalness={1}
           mirror={0}
         />
