@@ -21,7 +21,7 @@ const ThreeScene = () => {
       <Canvas
         shadows
         camera={{
-          position: [5, 2, 5], // 카메라 위치 (x, y, z)
+          position: [5, 5, 5], // 카메라 위치 (x, y, z)
           fov: 50, // 카메라 시야(Field of View)
           near: 0.1, // 카메라 근거리 클리핑
           far: 1000, // 카메라 원거리 클리핑
