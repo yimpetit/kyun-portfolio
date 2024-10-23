@@ -42,7 +42,7 @@ const ThreeScene = () => {
           shadow-camera-top={10}
           shadow-camera-bottom={-10}
         />
-        <KyunGLB scale={[2, 2, 2]} rotation={[0, -Math.PI / 4, 0]} />
+        <KyunGLB scale={[2, 2, 2]} rotation={[0, 0, 0]} />
 
         <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow castShadow>
           <planeGeometry args={[5, 5]} />
@@ -67,7 +67,11 @@ const ThreeScene = () => {
             luminanceSmoothing={0.9} // Bloom이 부드럽게 적용되는 정도
           />
         </EffectComposer>
-        <OrbitControls />
+        <OrbitControls
+          enablePan={false}
+          enableRotate={false}
+          enableZoom={false}
+        />
       </Canvas>
     </div>
   );
