@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "kyun. - portfolio site",
   description: "kyun.'s portfolio site",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     images: "/main_profile",
     description: "kyun.'s portfolio site",
