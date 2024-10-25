@@ -29,7 +29,7 @@ export default function Home() {
         </dl>
         <div className="w-40 h-40 rounded-full bg-white overflow-hidden">
           <Image
-            src="/profile.jpeg"
+            src="/main_profile.jpg"
             alt="profile"
             width="460"
             height="460"

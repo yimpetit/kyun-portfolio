@@ -9,8 +9,12 @@ import { getMessages } from "next-intl/server";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "kyun. portfolio",
-  description: "kyun.'s portfolio",
+  title: "kyun. - portfolio site",
+  description: "kyun.'s portfolio site",
+  openGraph: {
+    images: "/main_profile",
+    description: "kyun.'s portfolio site",
+  },
 };
 
 export default async function RootLayout({
