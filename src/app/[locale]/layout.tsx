@@ -9,8 +9,9 @@ import { getMessages } from "next-intl/server";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "kyun. - portfolio site",
-  description: "kyun.'s portfolio site",
+  metadataBase: new URL("https://www.kyun-official.com"),
+  title: "kyun. - portfolio",
+  description: "kyun.'s portfolio page",
   icons: {
     icon: "/favicon.ico",
   },
@@ -18,8 +19,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/main_profile.jpg",
-        width: 800,
-        height: 600,
       },
     ],
     description: "kyun.'s portfolio site",
