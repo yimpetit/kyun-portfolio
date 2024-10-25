@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    images: "/main_profile",
+    images: "/main_profile.jpg",
     description: "kyun.'s portfolio site",
   },
 };
