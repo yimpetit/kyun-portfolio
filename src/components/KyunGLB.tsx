@@ -10,7 +10,7 @@ export function KyunGLB(props: any) {
   useFrame(() => {
     if (boxRef.current) {
       // boxRef.current.rotation.x += 0.01; // X축 회전
-      boxRef.current.rotation.y -= 0.001; // Y축 회전
+      boxRef.current.rotation.y -= 0.002; // Y축 회전
     }
   });
 
