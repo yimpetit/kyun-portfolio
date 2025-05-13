@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import dayjs from "dayjs";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,6 +46,7 @@ export default async function RootLayout({
             </p>
           </div>
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId="G-TTWZ751S2J" />
       </body>
     </html>
   );
