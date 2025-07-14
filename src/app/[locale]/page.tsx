@@ -140,6 +140,7 @@ export default function Home() {
             <ul className="pt-2 pb-6 pl-2 opacity-70">
               <li>- 레이아웃 디자인</li>
               <li>- UI 디자인(이미지 소스 제외)</li>
+              <li>- 3D 작업</li>
               <li>- Three.js 3D 오브젝트 랜더링</li>
               <li>- Next.js 프론트엔드 개발</li>
             </ul>
@@ -157,6 +158,7 @@ export default function Home() {
             <ul className="pt-2 pb-6 pl-2 opacity-70">
               <li>- 레이아웃 디자인</li>
               <li>- UI 디자인(이미지 소스 제외)</li>
+              <li>- 3D 작업</li>
               <li>- Three.js 3D 오브젝트 랜더링</li>
               <li>- Next.js 프론트엔드 개발</li>
             </ul>
