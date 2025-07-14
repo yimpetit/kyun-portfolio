@@ -46,6 +46,28 @@ export default function Home() {
         <p className="text-sm">{t("aboutMeDescription")}</p>
       </div>
 
+      <div className="pb-4 pt-8">
+        <div className="flex justify-between gap-4 items-center pb-2">
+          <h4 className="font-bold text-xl">기술</h4>
+          <div className="flex-1 border-b border-slate-500 h-1"></div>
+          <div className="text-2xl">🧑‍💻</div>
+        </div>
+        <ul className="grid grid-cols-2">
+          <li>- Figma</li>
+          <li>- Blender 3D</li>
+          <li>- HTML / CSS / JavaScript</li>
+          <li>- React</li>
+          <li>- Next.js</li>
+          <li>- TypeScript</li>
+          <li>- Tailwind CSS</li>
+          <li>- Sanity CMS</li>
+          <li>- Vercel</li>
+          <li>- 웹 성능 최적화</li>
+          <li>- SEO</li>
+          <li>- Git</li>
+        </ul>
+      </div>
+
       <div className="pb-4 pt-8 text-sm">
         <div className="flex justify-between gap-4 items-center pb-2">
           <h4 className="font-bold text-xl">{t("myLifeTitle")}</h4>
