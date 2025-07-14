@@ -27,12 +27,13 @@ export default function Home() {
           <dt className="pb-2 text-2xl text-slate-100">{t("introName")}</dt>
           <dd className="text-sm text-slate-400">{t("introJob")}</dd>
         </dl>
-        <div className="w-40 h-40 rounded-full bg-white overflow-hidden">
+        <div className="w-40 h-40 rounded-tl-[50%] rounded-br-[50%] bg-white overflow-hidden">
           <Image
             src="/main_profile.jpeg"
             alt="profile"
             width="460"
             height="460"
+            className="w-full h-full object-cover"
           ></Image>
         </div>
       </div>
