@@ -77,7 +77,7 @@ export default function Home() {
 
       <div className="pb-4 pt-8">
         <div className="flex justify-between gap-4 items-center pb-2">
-          <h4 className="font-bold text-xl">{t("ContactTitle")}</h4>
+          <h4 className="font-bold text-xl">{t("works")}</h4>
           <div className="flex-1 border-b border-slate-500 h-1"></div>
           <div className="text-2xl">🎨</div>
         </div>
@@ -93,6 +93,9 @@ export default function Home() {
             <div className="absolute left-0 top-0 w-full h-full text-2xl flex p-4 font-bold">
               {t("renewel")}
             </div>
+            <ul className="pt-2 pb-6 pl-2 opacity-70">
+              <li>- 아임웹 사용</li>
+            </ul>
           </li>
           <li className="relative">
             <Image
@@ -102,6 +105,9 @@ export default function Home() {
               height={400}
               className="opacity-30 rounded-lg border border-slate-500"
             />
+            <ul className="pt-2 pb-6 pl-2 opacity-70">
+              <li>- Next.js 프론트엔드 개발</li>
+            </ul>
             <div className="absolute left-0 top-0 w-full h-full text-2xl flex p-4 font-bold">
               {t("noService")}
             </div>
@@ -116,6 +122,10 @@ export default function Home() {
                 className="rounded-lg hover:scale-105 transition border border-slate-500/50"
               />
             </Link>
+            <ul className="pt-2 pb-6 pl-2 opacity-70">
+              <li>- 레이아웃 및 UI 전체 디자인</li>
+              <li>- 프론트엔드 개발</li>
+            </ul>
           </li>
           <li>
             <Link href="https://www.choinchocolate.com/" target="_blank">
@@ -127,6 +137,12 @@ export default function Home() {
                 className="rounded-lg hover:scale-105 transition border border-slate-500/50"
               />
             </Link>
+            <ul className="pt-2 pb-6 pl-2 opacity-70">
+              <li>- 레이아웃 디자인</li>
+              <li>- UI 디자인(이미지 소스 제외)</li>
+              <li>- Three.js 3D 오브젝트 랜더링</li>
+              <li>- Next.js 프론트엔드 개발</li>
+            </ul>
           </li>
           <li>
             <Link href="https://mi.nujackpot.com/" target="_blank">
@@ -138,6 +154,12 @@ export default function Home() {
                 className="rounded-lg hover:scale-105 transition border border-slate-500/50"
               />
             </Link>
+            <ul className="pt-2 pb-6 pl-2 opacity-70">
+              <li>- 레이아웃 디자인</li>
+              <li>- UI 디자인(이미지 소스 제외)</li>
+              <li>- Three.js 3D 오브젝트 랜더링</li>
+              <li>- Next.js 프론트엔드 개발</li>
+            </ul>
           </li>
           {/* <li>
             <div className="w-full h-full border border-slate-500/50 rounded-lg flex items-center justify-center text-4xl opacity-30">
