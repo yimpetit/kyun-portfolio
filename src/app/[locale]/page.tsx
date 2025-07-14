@@ -77,6 +77,78 @@ export default function Home() {
 
       <div className="pb-4 pt-8">
         <div className="flex justify-between gap-4 items-center pb-2">
+          <h4 className="font-bold text-xl">{t("ContactTitle")}</h4>
+          <div className="flex-1 border-b border-slate-500 h-1"></div>
+          <div className="text-2xl">🎨</div>
+        </div>
+        <ul className="grid grid-cols-2 gap-2">
+          <li className="relative">
+            <Image
+              src="/photos/p1.jpeg"
+              alt=""
+              width={400}
+              height={400}
+              className="opacity-30 rounded-lg border border-slate-500"
+            />
+            <div className="absolute left-0 top-0 w-full h-full text-2xl flex p-4 font-bold">
+              {t("renewel")}
+            </div>
+          </li>
+          <li className="relative">
+            <Image
+              src="/photos/p2.jpeg"
+              alt=""
+              width={400}
+              height={400}
+              className="opacity-30 rounded-lg border border-slate-500"
+            />
+            <div className="absolute left-0 top-0 w-full h-full text-2xl flex p-4 font-bold">
+              {t("noService")}
+            </div>
+          </li>
+          <li>
+            <Link href="https://heosupdf.com/" target="_blank">
+              <Image
+                src="/photos/p3.webp"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-lg hover:scale-105 transition border border-slate-500/50"
+              />
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.choinchocolate.com/" target="_blank">
+              <Image
+                src="/photos/p5.jpeg"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-lg hover:scale-105 transition border border-slate-500/50"
+              />
+            </Link>
+          </li>
+          <li>
+            <Link href="https://mi.nujackpot.com/" target="_blank">
+              <Image
+                src="/photos/p4.jpeg"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-lg hover:scale-105 transition border border-slate-500/50"
+              />
+            </Link>
+          </li>
+          {/* <li>
+            <div className="w-full h-full border border-slate-500/50 rounded-lg flex items-center justify-center text-4xl opacity-30">
+              EMPTY
+            </div>
+          </li> */}
+        </ul>
+      </div>
+
+      <div className="pb-4 pt-8">
+        <div className="flex justify-between gap-4 items-center pb-2">
           <h4 className="font-bold text-xl">{t("iLikeTitle")}</h4>
           <div className="flex-1 border-b border-slate-500 h-1"></div>
           <div className="text-2xl">❤️</div>

@@ -16,7 +16,7 @@
     "aboutMeDescription": "저는 청주에 살고 있는 웹 프론트엔드 개발자입니다! 웹 기술과 UI 디자인에 진심인 편이라, 언제나 보기 좋고 사용하기 편한 웹사이트를 만드는 데 힘쓰고 있어요. HTML, JavaScript, CSS 같은 기본 기술부터 React와 Next.js까지 활용한 웹 관련 업무를 진행하고 있습니다. 새로운 기술을 배우고 프로젝트에 적용하는 걸 좋아하고, 그걸로 사용자 경험을 더 멋지게 만드는 게 목표예요!",
     "myLifeTitle": "내 삶",
     "myLife1991": "한국 청주에서 출생",
-    "myLife2015": "'Reconers' 웹 퍼블리셔로 업무 시작",
+    "myLife2015": "'Reconers' 웹 퍼블리셔 및 디자인 업무 시작",
     "myLife2017": "'ST Unitas' 웹 퍼블리셔, 웹 개발(PHP)업무 병행",
     "myLife2020": "'Delicious' 웹 프론트앤더",
     "myLife2022": "'The Jackpot' 웹 프론트앤더",
@@ -26,6 +26,9 @@
     "ohterInfoGit": "깃헙",
     "ohterInfoInstagram": "인스타그램",
     "ohterInfoVelog": "밸로그",
-    "ContactTitle": "연락처"
+    "ContactTitle": "연락처",
+    "works": "작업물",
+    "renewel": "리뉴얼",
+    "noService": "서비스 종료"
   }
 }

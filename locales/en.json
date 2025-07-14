@@ -22,6 +22,9 @@
     "ohterInfoGit": "Github",
     "ohterInfoInstagram": "Instagram",
     "ohterInfoVelog": "Velog",
-    "ContactTitle": "Contact"
+    "ContactTitle": "Contact",
+    "works": "Works",
+    "renewel": "Renewal",
+    "noService": "Service End"
   }
 }
