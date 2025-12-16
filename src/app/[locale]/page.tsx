@@ -193,7 +193,7 @@ export default function Home() {
                 alt=""
                 width={400}
                 height={400}
-                className="rounded-lg hover:scale-105 transition border border-slate-500/50"
+                className="rounded-lg hover:scale-105 transition border border-slate-500/50 object-cover aspect-square"
               />
             </Link>
             <ul className="pt-2 pb-6 pl-2 opacity-70">
