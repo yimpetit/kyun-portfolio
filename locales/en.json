@@ -25,6 +25,11 @@
     "ContactTitle": "Contact",
     "works": "Works",
     "renewel": "Renewal",
-    "noService": "Service End"
+    "noService": "Service End",
+    "p6Work1": "Full layout & UI design",
+    "p6Work2": "Multilingual (KR/EN) support",
+    "p6Work3": "Sanity CMS integration & schema design",
+    "p6Work4": "Video playback implementation",
+    "p6Work5": "Next.js frontend development"
   }
 }

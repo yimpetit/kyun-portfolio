@@ -186,11 +186,24 @@ export default function Home() {
               <li>- Next.js 프론트엔드 개발</li>
             </ul>
           </li>
-          {/* <li>
-            <div className="w-full h-full border border-slate-500/50 rounded-lg flex items-center justify-center text-4xl opacity-30">
-              EMPTY
-            </div>
-          </li> */}
+          <li>
+            <Link href="https://www.ana-ent.com/" target="_blank">
+              <Image
+                src="/photos/p6.jpg"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-lg hover:scale-105 transition border border-slate-500/50"
+              />
+            </Link>
+            <ul className="pt-2 pb-6 pl-2 opacity-70">
+              <li>- {t("p6Work1")}</li>
+              <li>- {t("p6Work2")}</li>
+              <li>- {t("p6Work3")}</li>
+              <li>- {t("p6Work4")}</li>
+              <li>- {t("p6Work5")}</li>
+            </ul>
+          </li>
         </ul>
       </div>
 

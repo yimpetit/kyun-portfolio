@@ -29,6 +29,11 @@
     "ContactTitle": "연락처",
     "works": "작업물",
     "renewel": "리뉴얼",
-    "noService": "서비스 종료"
+    "noService": "서비스 종료",
+    "p6Work1": "레이아웃 및 UI 전체 디자인",
+    "p6Work2": "다국어(한/영) 지원 구현",
+    "p6Work3": "Sanity CMS 연동 및 스키마 설계",
+    "p6Work4": "비디오 재생 기능 구현",
+    "p6Work5": "Next.js 프론트엔드 개발"
   }
 }
